@@ -42,8 +42,8 @@ StructureCar.prototype.friendlyBrand = funtion(){
 }
 var newStructeredcar = new StructureCar ("honda",2)
 console.log(newStructeredcar.friendlyBrand());
-homework
-Create an object called Multiplier with two methods: multiply and getCurrentValue. multiply should initially return the number supplied * 1 and from then on whatever the current value is times the number supplied.getCurrentValue should return the last answer returned from multiply.
+// homework
+// Create an object called Multiplier with two methods: multiply and getCurrentValue. multiply should initially return the number supplied * 1 and from then on whatever the current value is times the number supplied.getCurrentValue should return the last answer returned from multiply.
 
 var Multiplier ={
   this.multiply =funtion(number){
@@ -114,8 +114,8 @@ for (var i = 0; i < this.photos.lenght; i++) {
 
 
 function Photo ( photoyear,location ) {
-this.photoyear = photoyear
-this.location = location
+  this.photoyear = photoyear
+  this.location = location
 }
 var cat = new Photo ("1909", "nyc")
 console.log( cat);
